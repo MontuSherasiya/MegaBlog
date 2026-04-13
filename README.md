@@ -93,6 +93,8 @@ This project is ideal for:
 
 MegaBlog demonstrates how to build a scalable and modern web application using React and backend-as-a-service tools like Appwrite. It highlights real-world development practices including authentication, routing, state management, and API integration.
 
+---
+
 ## ✨ Features
 
 - 🔐 Secure Authentication (Login / Signup)
@@ -184,15 +186,12 @@ MegaBlog/
 npm install
 
 ### 2️⃣ Configure Appwrite
-export const conf = {
 
-  appwriteUrl: "APPWRITE_URL",
-  appwriteProjectId: "PROJECT_ID",
-  databaseId: "DATABASE_ID",
-  collectionId: "COLLECTION_ID",
-  bucketId: "BUCKET_ID"
-
-}
+  - appwriteUrl: "APPWRITE_URL",
+  - appwriteProjectId: "PROJECT_ID",
+  - databaseId: "DATABASE_ID",
+  - collectionId: "COLLECTION_ID",
+  - bucketId: "BUCKET_ID"
 
 ### 3️⃣Run Project
 npm run dev
