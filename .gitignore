@@ -1,4 +1,5 @@
 .env
+photos
 # Logs
 logs
 *.log
