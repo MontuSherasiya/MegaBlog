@@ -183,7 +183,10 @@ MegaBlog/
 ## ⚙️ Setup Instructions
 
 ### 1️⃣ Install Dependencies
+
+```bash
 npm install
+```
 
 ### 2️⃣ Configure Appwrite
 
@@ -194,7 +197,10 @@ npm install
   - bucketId: "BUCKET_ID"
 
 ### 3️⃣Run Project
+
+```bash
 npm run dev
+```
 
 ---
 
